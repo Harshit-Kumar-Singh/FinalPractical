@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Montserrat+Alternates:wght@100&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Estonia&family=Montserrat+Alternates:wght@100&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Estonia&family=Hurricane&family=Montserrat+Alternates:wght@100&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Estonia&family=Hurricane&family=Montserrat+Alternates:wght@100&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Estonia&family=Hurricane&family=Montserrat+Alternates:wght@100&family=Mulish:wght@600&family=Roboto+Condensed&display=swap');
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.heading{
+    display: flex;
+    justify-content: space-around;
+    /* border: solid 2px rebeccapurple; */
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    /* border: solid 2px black; */
+    align-items: center;
+}
+.main-heading{
+    width: 10%;
+    /* border: solid 2px black; */
+    line-height: 0px;
+
+}
+.searching-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+.delecious{
+  
+    font-family: 'Courgette', cursive;
+    font-size: 40px;
+
+}
+
+.food-blog{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.font-style{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+
+}
+.home-button{
+    border: solid 2px green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: green;
+    border-radius: 2px;
+    color: white;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+.main-image{
+   
+  
+    margin-top: 35px;
+    background-image: url('./assets/food2.jfif');
+    width: 1450px;
+    height: 500px;
+    margin-left: 20px;
+    margin-right: 200px;
+    background-repeat: no-repeat;
+    border:  solid 2px white;
+    background-size: 100% 100%;
+}
+.icons{
+    width: 500px;
+    height: 500px;
+}
+.content{
+   
+    height: 100%;
+    width: 400px;
+    height: 350px;
+    background-color: black;
+    opacity: 0.5;
+    margin-top: 150px;
+    margin-left: 150px;
+    color: white;
+}
+.ham{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.text{
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+    justify-self: left;
+}
+button{
+    padding: 10px;
+   margin-left: 150px;
+   background-color: green;
+   color: white;
+   border-radius: 2px;
+}
+.icons{
+    color: grey;
+    height: 40px;
+    width: 40px;
+}
+.sub-heading{
+   display: flex;
+   justify-content: end;
+
+}
+.xy{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
